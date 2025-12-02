@@ -1,0 +1,15 @@
+{
+  "appId": "com.tulpars.app",
+  "appName": "Tulpars App",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "hostname": "localhost",
+    "iosScheme": "https"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
