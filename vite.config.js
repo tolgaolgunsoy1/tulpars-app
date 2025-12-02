@@ -18,6 +18,14 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     minify: 'esbuild', // esbuild daha hızlı ve varsayılan olarak gelir
+    rollupOptions: {
+      external: [
+        '@capacitor/app',
+        '@capacitor/core',
+        '@capacitor/android',
+        '@capacitor/ios'
+      ]
+    }
   },
   server: {
     port: 5173,
